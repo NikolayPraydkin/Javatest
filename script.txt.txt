@@ -1,0 +1,82 @@
+CREATE SCHEMA `test` DEFAULT CHARACTER SET utf8 ;
+
+
+
+CREATE TABLE `test`.`users` (
+  `id` INT NOT NULL AUTO_INCREMENT,
+
+  
+`name` VARCHAR(45) NOT NULL,
+
+ 
+ `age` INT NOT NULL,
+ 
+
+ `isAdmin` BIT NOT NULL,
+ 
+
+ `createdDate` TIMESTAMP NOT NULL,
+
+ 
+ PRIMARY KEY (`id`));
+
+
+insert into test.users(id,name,age,isAdmin,createdDate) values(1,"Donald",44,true,now());
+
+insert into test.users(id,name,age,isAdmin,createdDate) values(2,"Donald",34,false,now());
+
+insert into test.users(id,name,age,isAdmin,createdDate) values(3,"Gleb",21,false,now());
+
+insert into test.users(id,name,age,isAdmin,createdDate) values(4,"Oleg",22,false,now());
+
+insert into test.users(id,name,age,isAdmin,createdDate) values(5,"Gorg",23,false,now());
+
+insert into test.users(id,name,age,isAdmin,createdDate) values(6,"Petro",29,false,now());
+
+insert into test.users(id,name,age,isAdmin,createdDate) values(7,"Masha",28,true,now());
+
+insert into test.users(id,name,age,isAdmin,createdDate) values(8,"Ira",27,false,now());
+
+insert into test.users(id,name,age,isAdmin,createdDate) values(9,"Dasha",26,false,now());
+
+insert into test.users(id,name,age,isAdmin,createdDate) values(10,"Sveta",31,false,now());
+
+insert into test.users(id,name,age,isAdmin,createdDate) values(11,"Marina",32,false,now());
+
+insert into test.users(id,name,age,isAdmin,createdDate) values(12,"Ludmila",33,true,now());
+
+insert into test.users(id,name,age,isAdmin,createdDate) values(13,"Marina",34,false,now());
+
+insert into test.users(id,name,age,isAdmin,createdDate) values(14,"Igor",35,false,now());
+
+insert into test.users(id,name,age,isAdmin,createdDate) values(15,"Mark",65,false,now());
+
+insert into test.users(id,name,age,isAdmin,createdDate) values(16,"Sergey",64,false,now());
+
+insert into test.users(id,name,age,isAdmin,createdDate) values(17,"Tolik",63,false,now());
+
+insert into test.users(id,name,age,isAdmin,createdDate) values(18,"Alena",69,false,now());
+
+insert into test.users(id,name,age,isAdmin,createdDate) values(19,"Andrey",43,false,now());
+
+insert into test.users(id,name,age,isAdmin,createdDate) values(20,"Evgeniy",40,true,now());
+
+insert into test.users(id,name,age,isAdmin,createdDate) values(21,"Vladimir",47,false,now());
+
+insert into test.users(id,name,age,isAdmin,createdDate) values(22,"Lukas",49,false,now());
+
+insert into test.users(id,name,age,isAdmin,createdDate) values(23,"Klaus",47,false,now());
+
+insert into test.users(id,name,age,isAdmin,createdDate) values(24,"Nikolay",41,false,now());
+
+insert into test.users(id,name,age,isAdmin,createdDate) values(25,"Vasiliy",41,true,now());
+
+insert into test.users(id,name,age,isAdmin,createdDate) values(26,"Timofey",25,false,now());
+
+insert into test.users(id,name,age,isAdmin,createdDate) values(27,"Viktoriya",23,false,now());
+
+insert into test.users(id,name,age,isAdmin,createdDate) values(28,"Ekaterina",26,false,now());
+
+insert into test.users(id,name,age,isAdmin,createdDate) values(29,"Marina",26,false,now());
+
+insert into test.users(id,name,age,isAdmin,createdDate) values(30,"Sveta",22,false,now());
